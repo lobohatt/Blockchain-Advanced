@@ -1,3 +1,4 @@
+// Advance Blockchain
 const sha256 = require('sha256');
 const currentNodeUrl = process.argv[3];
 
