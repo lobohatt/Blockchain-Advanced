@@ -1,6 +1,8 @@
-const Blockchain = require('./blockchain1.js');
+const Blockchain = require('./blockchainmain.js');
 
 const bitcoin = new Blockchain();
 
 
-console.log(bitcoin);
+//console.log(bitcoin);
+//console.log(Blockchain.length)
+
