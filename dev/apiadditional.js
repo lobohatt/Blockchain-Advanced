@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const Blockchain = require('./blockchain1');
+const Blockchain = require('./blockchainmain');
 
 const bitcoin = new Blockchain();
 
@@ -48,7 +48,7 @@ app.listen(3000, () => {
 const express = require('express');
 const bodyParser = require('body-parser');
 const uuid = require('uuid');
-const Blockchain = require('./blockchain1');
+const Blockchain = require('./blockchainmain');
 require('events').EventEmitter.defaultMaxListeners = 15;
 
 const app = express();
@@ -114,7 +114,7 @@ app.listen(3000, () => {
 const express = require('express');
 const bodyParser = require('body-parser');
 const uuid = require('uuid');
-const Blockchain = require('./blockchain1');
+const Blockchain = require('./blockchainmain');
 require('events').EventEmitter.defaultMaxListeners = 15;
 
 const app = express();
